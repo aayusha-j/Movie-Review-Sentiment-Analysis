@@ -129,4 +129,57 @@ The trained model was tested using manually written movie reviews.
 
 Example:
 
-| Movie
+| Movie Review | Predicted Sentiment |
+|---|---|
+| This movie was amazing. The acting and story were excellent. | Positive |
+| The movie was boring and disappointing. I did not enjoy it. | Negative |
+| Fantastic movie with wonderful performances and beautiful scenes. | Positive |
+| Worst movie ever. The story was terrible and acting was poor. | Negative |
+
+## 10. Model Saving
+
+The best-performing model was saved using Joblib.
+
+**Saved Model:** `sentiment_analysis_model.pkl`
+
+The saved pipeline includes:
+- TF-IDF Vectorizer
+- Logistic Regression Classifier
+
+This allows users to load the trained pipeline and predict the sentiment of new movie reviews without training the model again.
+
+## 11. Project Files
+
+| File Name | Description |
+|---|---|
+| Task_2_Sentiment_Analysis_.ipynb | Complete Jupyter Notebook |
+| sentiment_analysis_model.pkl | Saved Machine Learning Pipeline |
+| sentiment_distribution.png | Sentiment Distribution Chart |
+| confusion_matrices.png | Model Confusion Matrices |
+| model_accuracy_comparison.png | Model Accuracy Comparison |
+| README.md | Project Documentation |
+
+## 12. Conclusion
+
+This project demonstrates how Natural Language Processing and Machine Learning can be used to classify movie reviews based on their sentiment.
+
+Two classification algorithms, Logistic Regression and Multinomial Naive Bayes, were implemented and evaluated.
+
+Logistic Regression achieved the highest accuracy of 83.00% and an F1 Score of 83.41%, making it the better-performing model in this experiment.
+
+The project provided practical experience in text preprocessing, TF-IDF vectorization, Machine Learning model training, evaluation and sentiment prediction.
+
+## 13. Future Improvements
+
+- Use a larger movie review dataset.
+- Experiment with advanced NLP techniques.
+- Improve classification accuracy.
+- Develop a simple web application for real-time sentiment prediction.
+
+## 14. Author
+
+**Aayusha Jagtap**
+
+BSc Blockchain Technology Student
+
+GitHub: [aayusha-j](https://github.com/aayusha-j)
